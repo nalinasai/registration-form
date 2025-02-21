@@ -1,0 +1,84 @@
+body{
+    background-color: #1b1b32;
+    color: white;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.headerp{
+    text-align: center;
+    font-size: 18px;
+}
+
+div{
+    
+    margin-top: 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    
+
+}
+
+.contact{
+    width: 100%;
+    background-color: black;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: rgb(11, 11, 11);
+    height: 19px;
+    border-style: solid;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: white;
+
+}
+
+fieldset{
+    font-size: 18px;
+    border-width: 0;
+}
+
+label{
+    display: block;
+    margin-top: 8px;
+}
+
+textarea{
+    
+        width: 100%;
+        background-color: black;
+        border-radius: 5px;
+        border-width: 3px;
+        border-color: rgb(11, 11, 11);
+        height: 60px;
+        border-style: solid;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    color: white;
+
+}
+
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: darkgray;
+}
+
+.submit{
+    width: 80%;
+    background-color: grey;
+    cursor: pointer;
+    height: 30px;
+    border-color: white;
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Registration Form</h1>
+        <p class="headerp">Please fill out this form with the required information</p>
+
+        <div>
+            <form>
+                <fieldset>
+                    <label for="first name">Enter Your First Name:</label>
+                    <label for="first name input">
+                        <input type="text" class="contact">
+                    </label>
+                    <label for="last name">Enter Your Last Name:</label>
+                    <label for="last name input">
+                        <input type="text" class="contact">
+                    </label>
+                    <label for="email">Enter Your Eamil:</label>
+                    <label for="email input">
+                        <input type="email" class="contact">
+                    </label>
+                    <label for="Password">Create a New Password:</label>
+                    <label for="password input">
+                        <input type="password" pattern="[a-z A-Z 0-5]{8,}" class="contact">
+                    </label>
+                </fieldset>
+
+                <hr>
+
+                <fieldset>
+                    <p>Account type(required)</p>
+                    <label><input type="radio" checked name="Account">personal</label>
+                    <label>
+                        <input type="radio" name="Account">Business
+                    </label>
+                    
+                </fieldset>
+
+                <hr>
+
+                <fieldset>
+                    <label for="picture">Upload a profile picture:</label>
+                    <label for="picture input"><input type="file" class="contact"></label>
+                    <label for="age">Input your age (years):</label>
+                    <label for="age input"><input type="number" class="contact"></label>
+                    <label for="department">What is your department:</label>
+                    <label for="department input">
+                        <select>
+                            <option>Electronics and communication technology</option>
+                            <option>bio medical</option>
+                            <option>Computer science and engineering</option>
+                            <option>bio medical</option>
+                            <option>bio medical</option>
+                        </select>
+                    </label>
+                    <label for="bio">Provide a bio:</label>
+                    <label for="bio input"><textarea rows="5" cols="35" placeholder="I like to coding on ......"  class="textarea"></textarea></label>
+
+                    <label for="terms"><input type="checkbox">I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+                    <label for="submit"><input type="submit" class="submit"></label>
+                </fieldset>
+
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
