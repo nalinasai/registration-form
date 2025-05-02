@@ -1,6 +1,7 @@
 body{
-    background-color: #1b1b32;
+    background: linear-gradient(90deg, rgb(41, 138, 139) 0%, rgb(164, 76, 196) 86%);
     color: white;
+    
 }
 
 h1{
@@ -26,17 +27,23 @@ div{
 }
 
 .contact{
-    width: 100%;
+    width: 90%;
     background-color: black;
-    border-radius: 5px;
+    border-radius: 9px;
     border-width: 3px;
-    border-color: rgb(11, 11, 11);
-    height: 19px;
+    border-color: white;
+    border-width: 1px;
+    height: 25px;
     border-style: solid;
     margin-top: 8px;
     margin-bottom: 8px;
     color: white;
 
+}
+
+.select{
+    height: 25px;
+    border-radius: 10px;
 }
 
 fieldset{
@@ -50,35 +57,62 @@ label{
 }
 
 textarea{
-    
-        width: 100%;
-        background-color: black;
-        border-radius: 5px;
-        border-width: 3px;
-        border-color: rgb(11, 11, 11);
-        height: 60px;
-        border-style: solid;
-        margin-top: 8px;
-        margin-bottom: 8px;
+    border-color: white;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    border-width: 3px;
+    height: 60px;
+    border-style: solid;
+    margin-top: 8px;
+    margin-bottom: 8px;
     color: white;
+    border-width: 1px;
 
 }
 
 
-a{
+.terms{
     color: white;
 }
 
-a:hover{
+.terms:hover{
     color: darkgray;
 }
 
 .submit{
     width: 80%;
-    background-color: grey;
+    background-color: #ffffff;
     cursor: pointer;
     height: 30px;
     border-color: white;
     font-size: 20px;
-    color: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
 }
+
+.button{
+   
+    
+    width: 80%;
+    background-color: #ffffff;
+    cursor: pointer;
+    height: 30px;
+    border-color: white;
+    font-size: 18px;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+
+.home{
+    color: black;
+    height: 25px;
+    background-color: #ffffff;
+}
+
+.home:hover,.submit:hover{
+    color: gray;
+}
+
